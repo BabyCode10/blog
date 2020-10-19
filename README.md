@@ -43,9 +43,13 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=null
 MAIL_FROM_NAME="${APP_NAME}"
 ```
-Setelah selesai jalankan perintah pada terminal, seperti dibwah ini:
+Setelah selesai jalankan perintah pada terminal, seperti dibawah ini:
 ```
 php artisan migrate --seed
+```
+Jangan lupa untuk install pakcage js dan laravel mix nya dengan cara, seperti dibawah ini:
+```
+npm install
 ```
 
 ### Tes
