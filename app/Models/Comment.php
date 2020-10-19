@@ -15,6 +15,6 @@ class Comment extends Model
 
     public function post()
     {
-        $this->belongsTo('App\Models\Post', 'post_id');
+        return $this->belongsTo('App\Models\Post', 'post_id');
     }
 }
