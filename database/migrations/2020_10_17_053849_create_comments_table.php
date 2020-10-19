@@ -18,9 +18,11 @@ class CreateCommentsTable extends Migration
             $table->unsignedBigInteger('post_id');
             $table->string('name');
             $table->string('email');
-            $table->string('website');
+            $table->string('website')->nullable();
             $table->text('comment');
             $table->timestamps();
+
+            $table->foreign('post_id')->references('id')->on('posts');
         });
     }
 
