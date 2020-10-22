@@ -63,7 +63,7 @@ Untuk masuk ke *website* cukup masukan *url* di *browser* masing-masing dengan *
 http://localhost:8000 // atau 
 http://127.0.0.1:8000
 ```
-
+Untuk semua user yang ada di *seeder* memiliki *password* dengan isikan *password*
 
 ## Authors
 
